@@ -16,7 +16,7 @@ int main()
 	int arr[MAX][MAX];
 	int n, m;
 
-	cout << "Nhap kich thuoc cua mang hai chieu: ";
+	cout << "thuoc cua mang hai chieu: ";
 	cin >> n >> m;
 	Nhap_ma_tran_2_chieu(arr,n,m);
 	Xuat_ma_tran_2_chieu(arr,n,m);
