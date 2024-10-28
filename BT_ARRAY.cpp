@@ -1,5 +1,7 @@
 #include<iostream>
 using namespace std;
+//test 123
+//test 345
 
 #define MAX 50
 
@@ -16,7 +18,7 @@ int main()
 	int arr[MAX][MAX];
 	int n, m;
 
-	cout << "Nhap kich thuoc cua mang hai chieu: ";
+	cout << "Nhap do lon cua mang hai chieu: ";
 	cin >> n >> m;
 	Nhap_ma_tran_2_chieu(arr,n,m);
 	Xuat_ma_tran_2_chieu(arr,n,m);
@@ -28,7 +30,7 @@ int main()
 
 void Nhap_ma_tran_2_chieu(int a[MAX][MAX], int n, int m)
 {
-	cout << "Vui long nhap gia tri cua mang: " << endl;
+	cout << "hay nhap gia tri cua mang: " << endl;
 
 	for (int i = 0; i < n; i++)
 	{
